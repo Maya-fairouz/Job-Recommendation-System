@@ -10,6 +10,7 @@ class TFIDFRecommender:
         self.job_matrix = None
         self.job_ids = None
         self._load()
+        print("TFIDFRecommender initialized. Ready:", self.is_ready())
 
 
     def _load(self):
